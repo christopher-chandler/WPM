@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WPM:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WPM_jar</output-path>
+    <root id="archive" name="WordsPerMinute.jar">
+      <element id="module-output" name="WordsPerMinute" />
+    </root>
+  </artifact>
+</component>
