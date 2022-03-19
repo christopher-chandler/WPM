@@ -64,7 +64,7 @@
 
 <div align="center">
   <a href="https://github.com/christopher-chandler/WPM">
-    <img src="images/main_screen.png" alt="WPM" width="80" height="80">
+    <img src="images/main_screen.png" alt="WPM" width="300" height="300">
   </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
