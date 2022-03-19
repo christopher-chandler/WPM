@@ -21,12 +21,12 @@
   <p align="center">
     A program to calculate the words per minute that you can type.
     <br />
-    <a href="https://github.com/christopher-chandler/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/christopher-chandler/WPM"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/christopher-chandler/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/christopher-chandler/WPM/issues">Report Bug</a>
     ·
-    <a href="https://github.com/christopher-chandler/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/christopher-chandler/WPM/issues">Request Feature</a>
   </p>
 </div>
 
@@ -92,7 +92,7 @@ You must have [Java](https://www.oracle.com/java/technologies/downloads/) instal
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/christopher-chandler/repo_name.git
+   git clone https://github.com/christopher-chandler/WPM.git
    ```
 3. Install NPM packages
    ```sh
@@ -126,7 +126,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/christopher-chandler/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/christopher-chandler/WPM/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -164,7 +164,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Christopher Chandler - christopher.chandler@outlook.de
 
-Project Link: [https://github.com/christopher-chandler/repo_name](https://github.com/christopher-chandler/repo_name)
+Project Link: [https://github.com/christopher-chandler/WPM](https://github.com/christopher-chandler/WPM)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -185,16 +185,16 @@ Project Link: [https://github.com/christopher-chandler/repo_name](https://github
 
 [product-screenshot]: images/screenshot.png
 
-[contributors-shield]: https://img.shields.io/github/contributors/christopher-chandler/repo_name?color=green&logoColor=%20
-[contributors-url]: https://github.com/christopher-chandler/repo_name/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/christopher-chandler/WPM?color=green&logoColor=%20
+[contributors-url]: https://github.com/christopher-chandler/WPM/graphs/contributors
 
 [stars-shield]: https://img.shields.io/github/stars/christopher.chandler/i2pdf?color=yellow%20&logoColor=yellow&style=social
-[stars-url]: https://github.com/christopher-chandler/repo_name/stargazers
+[stars-url]: https://github.com/christopher-chandler/WPM/stargazers
 
-[license-shield]: https://img.shields.io/github/license/christopher-chandler/repo_name?color=yellow
-[license-url]: https://github.com/christopher-chandler/repo_name/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/christopher-chandler/WPM?color=yellow
+[license-url]: https://github.com/christopher-chandler/WPM/blob/master/LICENSE.txt
 
-[download-shield]: https://img.shields.io/github/downloads/christopher-chandler/repo_name/total
+[download-shield]: https://img.shields.io/github/downloads/christopher-chandler/WPM/total
 [windows-shield]:  https://img.shields.io/badge/Windows-Tested-purple
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
 [version-shield]: https://img.shields.io/badge/Version-0.0.0-brightgreen
