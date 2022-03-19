@@ -167,7 +167,7 @@ Project Link: [https://github.com/christopher-chandler/WPM](https://github.com/c
 [contributors-shield]: https://img.shields.io/github/contributors/christopher-chandler/WPM?color=green&logoColor=%20
 [contributors-url]: https://github.com/christopher-chandler/WPM/graphs/contributors
 
-[stars-shield]: https://img.shields.io/github/stars/christopher.chandler/WPM?color=yellow%20&logoColor=yellow&style=social
+[stars-shield]: https://img.shields.io/github/stars/christopher-chandler/wpm?color=%20&logoColor=yellow&style=social
 [stars-url]: https://github.com/christopher-chandler/WPM/stargazers
 
 [license-shield]: https://img.shields.io/github/license/christopher-chandler/WPM?color=yellow
