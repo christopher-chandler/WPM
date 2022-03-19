@@ -36,7 +36,7 @@ public class WPM {
         // User information
 
         String result = String.format("You finished in %s seconds", df.format(elapsedTime));
-        String userScore = String.format("your score is %s around wpm per minute.", df.format(rawScore));
+        String userScore = String.format("Your score is around %s wpm.", df.format(rawScore));
 
         System.out.println(result);
         System.out.println(userScore);

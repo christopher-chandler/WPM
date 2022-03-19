@@ -62,7 +62,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+  <a href="https://github.com/christopher-chandler/WPM">
+    <img src="images/main_screen.png" alt="WPM" width="80" height="80">
+  </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,7 +83,7 @@ This program is written in pure Java without external dependencies.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To run WPM,  you simply need to execute ```Java -jar WordsPerMinute.jar``` in the command prompt. 
+To run WPM,  you simply need to execute ```java -jar WordsPerMinute.jar``` in the command prompt. 
 
 
 ### Prerequisites
