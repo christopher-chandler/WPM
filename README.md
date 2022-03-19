@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/christopher-chandler/repo_name">
+  <a href="https://github.com/christopher-chandler/WPM">
     <img src="images/logo.png" alt="WPM" width="80" height="80">
   </a>
 
