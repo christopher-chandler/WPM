@@ -21,7 +21,7 @@
   <p align="center">
     A program to calculate the words per minute that you can type.
     <br />
-    <a href="https://github.com/christopher-chandler/WPM"><strong>Explore the docs »</strong></a>
+    <a href="https://christopher-chandler.github.io/WPM/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/christopher-chandler/WPM/issues">Report Bug</a>
@@ -58,7 +58,6 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -68,21 +67,17 @@
   </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+</div>
 
 
 ### Built With
-
 This program is written in pure Java without external dependencies.
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
-
 To run WPM,  you simply need to execute ```java -jar WordsPerMinute.jar``` in the command prompt. 
 
 
@@ -92,23 +87,10 @@ You must have [Java](https://www.oracle.com/java/technologies/downloads/) instal
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/christopher-chandler/WPM.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+An installation of the program is not required. It is portable and can be run so long as you have 
+Java installed on your system.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -171,14 +153,10 @@ Project Link: [https://github.com/christopher-chandler/WPM](https://github.com/c
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* This projected is based and inspired by [Alex Lee's WPM in Java](https://www.youtube.com/watch?v=Dzx0-9cTIMc)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -186,19 +164,17 @@ Project Link: [https://github.com/christopher-chandler/WPM](https://github.com/c
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: images/screenshot.png
-
 [contributors-shield]: https://img.shields.io/github/contributors/christopher-chandler/WPM?color=green&logoColor=%20
 [contributors-url]: https://github.com/christopher-chandler/WPM/graphs/contributors
 
-[stars-shield]: https://img.shields.io/github/stars/christopher.chandler/i2pdf?color=yellow%20&logoColor=yellow&style=social
+[stars-shield]: https://img.shields.io/github/stars/christopher.chandler/WPM?color=yellow%20&logoColor=yellow&style=social
 [stars-url]: https://github.com/christopher-chandler/WPM/stargazers
 
 [license-shield]: https://img.shields.io/github/license/christopher-chandler/WPM?color=yellow
-[license-url]: https://github.com/christopher-chandler/WPM/blob/master/LICENSE.txt
+[license-url]: https://github.com/christopher-chandler/WPM/blob/master/LICENSE
 
 [download-shield]: https://img.shields.io/github/downloads/christopher-chandler/WPM/total
 [windows-shield]:  https://img.shields.io/badge/Windows-Tested-purple
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
-[version-shield]: https://img.shields.io/badge/Version-0.0.0-brightgreen
-[update-shield]: https://img.shields.io/badge/Last_Updated-MONTH_YEAR-blue
+[version-shield]: https://img.shields.io/badge/Version-0.0.1-brightgreen
+[update-shield]: https://img.shields.io/badge/Last_Updated-March_2022-blue
