@@ -95,21 +95,26 @@ Java installed on your system.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This is a simple program that you can use to gauge how fast you can type our words. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Basic Mode 
+
+<img src="images/main_screen.png" alt="WPM" width="300" height="300">
+
+After running the jar file, you will be presented with three words. 
+Enter the words as fast and accurately as you can. Once you are done, you must 
+press the enter key. The result will the presented in the console.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+A list of features that are to be implemented in future releases. 
+
+- [ ] Accuracy score
+  - [ ] Saving user scores
+- [ ] Loading in user files 
 
 See the [open issues](https://github.com/christopher-chandler/WPM/issues) for a full list of proposed features (and known issues).
 
@@ -178,3 +183,5 @@ Project Link: [https://github.com/christopher-chandler/WPM](https://github.com/c
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
 [version-shield]: https://img.shields.io/badge/Version-0.0.1-brightgreen
 [update-shield]: https://img.shields.io/badge/Last_Updated-March_2022-blue
+
+ 
