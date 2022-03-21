@@ -1,6 +1,5 @@
-package time;
+package timeManager;
 
-import java.time.LocalTime;
 import java.util.concurrent.TimeUnit;
 
 public class Countdown {
