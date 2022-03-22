@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Countdown {
 
-    public static void StartCountdown(int range) throws InterruptedException{
+    public void StartCountdown(int range, String name) throws InterruptedException{
 
         int i;
 
@@ -14,8 +14,8 @@ public class Countdown {
             System.out.println(start);
             TimeUnit.SECONDS.sleep(i);
         }
-
-        System.out.println("Go!!!");
+        String cheerPlayer = String.format("Go %s !!", name);
+        System.out.println(cheerPlayer);
 
     }
 

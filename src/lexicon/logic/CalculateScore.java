@@ -1,8 +1,8 @@
-package lexicon.elements;
+package lexicon.logic;
 
 public class CalculateScore {
 
-    public static int RawScore(int numChars, double seconds){
+    public int RawScore(int numChars, double seconds){
 
         double allTypedEntries = (numChars/5);
         double minutes = seconds * 60;

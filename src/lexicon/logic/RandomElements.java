@@ -1,11 +1,10 @@
-package lexicon.elements;
-
+package lexicon.logic;
 
 import java.util.Random;
 
 public class RandomElements {
 
- public static void PrintRandomWords(String[] WordGroup){
+ public void getRandomWord(String[] WordGroup){
 
    Random rand = new Random();
    int WordGroupLength = WordGroup.length;
