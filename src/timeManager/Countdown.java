@@ -10,7 +10,7 @@ public class Countdown {
 
         for (i = 1; range > i; i++) {
             String start;
-            start = String.format("We will start in %d",i);
+            start = String.format("We will start in %d", i);
             System.out.println(start);
             TimeUnit.SECONDS.sleep(i);
         }

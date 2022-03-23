@@ -1,8 +1,10 @@
+// Custom libraries
 package user;
-
-import java.util.Arrays;
-import java.util.Scanner;
+import lexicon.logic.*;
 import lexicon.words.*;
+
+// Standard
+import java.util.Scanner;
 
 
 public class Player {
@@ -20,20 +22,18 @@ public class Player {
         System.out.println(greeting);
     }
 
-
    public String[] playerChoice(Scanner scan) {
        String prompt = "\nWhat would would you like to have as practice?";
        System.out.println(prompt);
        String[] wordChoices = {"words", "sentences"};
 
-       //
        Animals animals = new Animals();
-
-
-
        Plants plants = new Plants();
+       RandomElements randomElements = new RandomElements();
 
-       for (String word : wordChoices) {
+       String[][] allAnimals = animals.allAnimals;
+
+       for (String word: wordChoices) {
            System.out.println(word);
        }
 
@@ -42,19 +42,16 @@ public class Player {
            String selectTest = scan.next();
 
            if (selectTest.equals("words")) {
+               System.out.println("You have chosen words!\n");
+               String[] randomSelection = randomElements.getRandomWordArray(allAnimals);
+               return randomSelection;
 
-
-               System.out.println();
-               return wordChoices;
-
-           } else if (selectTest.equals("sentence")) {
-               return wordChoices;
-
+           } else if (selectTest.equals("sentences")) {
+               System.out.println("Comeback later, the sentences aren't ready!");
            }
            else{
-            System.out.println("Your input was incorrect");
+            System.out.println("Your input was incorrect. Please enter 'words' or 'sentences'");
            }
-
 
 
             }

@@ -6,6 +6,7 @@ import user.Player;
 // Standard
 import java.text.DecimalFormat;
 import java.time.LocalTime;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -22,6 +23,7 @@ public class WPM {
         // elements
         CalculateScore calculateScore = new CalculateScore();
         RandomElements randomElements = new RandomElements();
+        double minuteConvert = 1000000000.0;
 
         // time
         Countdown clock = new Countdown();
@@ -37,8 +39,20 @@ public class WPM {
         System.out.print("Enter username: ");
         String name = scan.nextLine();
 
-        System.out.print("Enter user age: ");
-        int age = scan.nextInt();
+        int age = 0;
+        while (true) {
+            try {
+                System.out.print("Enter user age: ");
+                age = scan.nextInt();
+                break;
+
+            } catch (InputMismatchException ex) {
+                System.out.println("Only a number for the age is allowed.");
+                 scan.next();
+            }
+
+        }
+
 
         // get user selection
         Player newPlayer = new Player(name, age);
@@ -56,7 +70,7 @@ public class WPM {
         double end = LocalTime.now().toNanoOfDay();
 
         // Calculating WPM
-        double elapsedTime = speed.ElapsedTime(start, end)/1000000000.0;
+        double elapsedTime = speed.ElapsedTime(start, end)/minuteConvert;
         int numChars = typedWords.length();
         double rawScore  = calculateScore.RawScore(numChars,elapsedTime);
 
@@ -67,7 +81,6 @@ public class WPM {
         System.out.println(result);
         System.out.println(userScore);
     }
+    }
 
 
-
-}

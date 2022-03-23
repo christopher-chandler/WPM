@@ -1,8 +1,14 @@
 package lexicon.logic;
-
 import java.util.Random;
 
 public class RandomElements {
+
+public String[] getRandomWordArray(String[][] allAnimals){
+    Random rand = new Random();
+    int wordsArrayLength = allAnimals.length;
+    String[] choice = allAnimals[rand.nextInt(wordsArrayLength)];
+    return choice;
+}
 
  public void getRandomWord(String[] WordGroup){
 
@@ -15,7 +21,10 @@ public class RandomElements {
        System.out.print(String.format("%s ",WordString));
 
         }
-   }
+ }
+
+
+
 
  }
 
